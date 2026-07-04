@@ -76,13 +76,14 @@ header {
     color: var(--texto_principal);
     border-radius: 8px;
     font-weight: bold;
-    transition: 0.3s;
     padding: 12px 22px;
     background-color: var(--cor_principal);
 }
 
 .botao a:hover {
-    background-color: var(--houver);
+    background-color: var(--fundo_secundario);
+    padding: 11px 21px;
+    border: 1px solid var(--cor_principal);
 }
 
 .botao {
@@ -108,4 +109,65 @@ header {
 .hero_img img {
     width: 100%;
     display: block;
+}
+
+.solucoes {
+    width: 100%;
+    background-color: var(--fundo_principal);
+    padding: 0px;
+}
+
+.solucoes_texto {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.solucoes_texto h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    width: 32%;
+    background-color: var(--cards);
+    border-radius: 8px;
+    border: 1px solid var(--borda_cards);
+    margin: auto;
+    height: 200px;
+}
+
+.card:hover {
+    border: 1px solid var(--cor_principal);
+    transition: 0.3s;
+}
+
+.card img {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 20%;
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.card_texto {
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.card_texto h1 {
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+
+.card_texto p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    line-height: 1.5;
 }
