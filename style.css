@@ -171,3 +171,87 @@ header {
     padding-bottom: 20px;
     line-height: 1.5;
 }
+
+.dados {
+    width: 100%;
+    background-color: var(--fundo_principal);
+    margin-bottom: 20px;
+}
+
+.dados_conteiner {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--cards);
+    border-radius: 8px;
+    border: 1px solid var(--borda_cards);
+    width: 95%;
+    padding: 10px 0px;
+}
+
+.dados_card {
+    display: flex;
+    margin: auto;
+}
+
+.dados_card img {
+    margin: 10px;
+    max-height: 60px;
+    max-width: 60px;
+    
+}
+
+.dados_texto {
+    display: block;
+}
+
+.dados_texto h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.dados_texto p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.linha {
+    width: 2px;
+    height: 70px;
+    background-color: var(--borda_cards);
+    margin: 10px;
+
+}
+
+.sobre_nos {
+    width: 100%;
+    background-color: var(--fundo_principal);
+}
+
+.sobre_nos img {
+    max-height: 355px;
+}
+
+.sobre_nos_txt  {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.sobre_nos_txt h1 {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0px 0px 10px 0px;
+}
+
+.sobre_nos_txt h2 {
+    font-size: 13px;;
+    margin: 0px 0px 10px 0px;
+}
+
+.sobre_nos_txt p {
+    line-height: 1.5;
+    margin: 0px;
+}
