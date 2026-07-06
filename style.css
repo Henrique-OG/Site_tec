@@ -255,3 +255,13 @@ header {
     line-height: 1.5;
     margin: 0px;
 }
+
+footer {
+    width: 100%;
+    background-color: var(--fundo_secundario);
+    border-top: 1px solid var(--borda_cards);
+}
+
+footer p {
+    margin: 0px;
+}
