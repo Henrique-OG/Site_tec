@@ -104,6 +104,7 @@ header {
 .hero_img {
     width: 50%;
     display: block;
+    margin-left: 10px;
 }
 
 .hero_img img {
