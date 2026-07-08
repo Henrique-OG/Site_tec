@@ -23,12 +23,12 @@ p {
     margin-bottom: 40px;
 }
 
-h2 {
+h3 {
     color: var(--cor_principal);
     font-size: 15px;
 }
 
-h1 {
+h2 {
     color: var(--texto_principal);
     font-size: 40px;
 }
@@ -124,7 +124,7 @@ header {
     text-align: center;
 }
 
-.solucoes_texto h1 {
+.solucoes_texto h2 {
     margin-bottom: 20px;
     font-size: 30px;
 }
@@ -137,6 +137,7 @@ header {
     border: 1px solid var(--borda_cards);
     margin: auto;
     height: 200px;
+    position: relative;
 }
 
 .card:hover {
@@ -158,7 +159,7 @@ header {
     margin-left: 20px;
 }
 
-.card_texto h1 {
+.card_texto h2 {
     margin-top: 10px;
     font-size: 21px;
     line-height: 1.5;
@@ -173,10 +174,16 @@ header {
     line-height: 1.5;
 }
 
+.card_texto h3 {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+
 .dados {
     width: 100%;
     background-color: var(--fundo_principal);
     margin-bottom: 20px;
+    margin-top: 30px
 }
 
 .dados_conteiner {
@@ -196,7 +203,10 @@ header {
 }
 
 .dados_card img {
-    margin: 10px;
+    margin-bottom: auto;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
     max-height: 60px;
     max-width: 60px;
     
@@ -206,7 +216,7 @@ header {
     display: block;
 }
 
-.dados_texto h1 {
+.dados_texto h2 {
     margin-top: 10px;
     font-size: 30px;
     margin-bottom: 0px;
@@ -221,7 +231,6 @@ header {
 
 .linha {
     width: 2px;
-    height: 70px;
     background-color: var(--borda_cards);
     margin: 10px;
 
@@ -241,13 +250,13 @@ header {
     margin-left: 20px;
 }
 
-.sobre_nos_txt h1 {
+.sobre_nos_txt h2 {
     font-size: 22px;
     line-height: 1.5;
     margin: 0px 0px 10px 0px;
 }
 
-.sobre_nos_txt h2 {
+.sobre_nos_txt h3 {
     font-size: 13px;;
     margin: 0px 0px 10px 0px;
 }
@@ -265,4 +274,73 @@ footer {
 
 footer p {
     margin: 0px;
+}
+
+.dados_texto_sobre {
+    display: block;
+
+}
+
+.dados_texto_sobre h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.dados_texto_sobre p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.nossa_jornada{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.nossa_jornada h2,h3 {
+    margin: 10px;
+}
+
+.ponto{
+    width: 14px;
+    height: 14px;
+
+    background: var(--cor_principal);
+    border-radius: 50%;
+
+    position: absolute;
+
+    top:-45px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    box-shadow: 0 0 15px var(--cor_principal);
+}
+
+.linha_timeline {
+    position: absolute;
+
+    top: -38px;
+
+    left: 0;
+    right: 0;
+
+    height: 2px;
+
+    background: var(--texto_secundario);
+}
+
+.timeline {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
 }
