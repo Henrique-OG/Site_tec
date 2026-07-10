@@ -345,3 +345,72 @@ footer p {
     margin: auto;
     margin-bottom: 20px;
 }
+
+.como_fazemos {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.como_fazemos_txt {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    max-width: 1200px;;
+}
+
+.como_fazemos_txt h2 {
+    margin: 10px;
+}
+
+.estrategia {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cards_estrategias_conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card_solucoes {
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    background-color: var(--cards);
+    border-radius: 8px;
+    border: solid 1px var(--borda_cards);
+    height: 325px;
+    width: 20%;
+}
+
+.card_solucoes h3 {
+    font-size: 20px;
+}
+
+.card_solucoes h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card_solucoes p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.card_solucoes:hover {
+    border: solid 1px var(--houver);
+}
+
+.seta {
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
