@@ -4,7 +4,7 @@
     --fundo_principal: #050816;
     --fundo_secundario: #0B1120;
     --cards: #111827;
-    --borda_cards: #1E293B;
+    --borda_cards: #1f293b;
     --cor_principal: #3B82F6;
     --houver: #60A5FA;
     --texto_principal: #F8FAFC;
@@ -346,20 +346,24 @@ footer p {
     margin-bottom: 20px;
 }
 
-.como_fazemos {
+.textos {
     margin-top: 20px;
     width: 100%;
 }
 
-.como_fazemos_txt {
+.conteudo_txt {
     margin: auto;
     text-align: center;
     width: 70%;
     max-width: 1200px;;
 }
 
-.como_fazemos_txt h2 {
+.conteudo_txt h2 {
     margin: 10px;
+}
+
+.conteudo_txt h3 {
+    font-size: 20px;
 }
 
 .estrategia {
@@ -413,4 +417,47 @@ footer p {
     align-items: center;
 }
 
+.cards_tecnologias {
+    display: block;
+    height: 500px;
+    width: 20%;
+    background-color: var(--cards);
+    border-radius: 8px;
+    border: solid 1px var(--borda_cards);
+    margin: 15px;
+    padding: 25px;
+}
 
+.cards_tecnologias:hover {
+    border: solid 1px var(--houver);
+}
+
+.cards_tecnologias h2 {
+    font-size: 29px;
+}
+
+.cards_tecnologias p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+li p {
+    margin: 0px;
+    font-size: 17px;
+}
+
+li i {
+    font-size: 18px;
+    color: var(--cor_principal);
+}
