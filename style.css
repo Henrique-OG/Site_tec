@@ -461,3 +461,34 @@ li i {
     font-size: 18px;
     color: var(--cor_principal);
 }
+
+.motivos {
+    width: 100%;
+    background-color: var(--fundo_principal);
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.motivos_conteiner {
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px var(--borda_cards);
+    background-color: var(--cards);
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 10px;
+}
+
+.motivos_conteiner h3,h2 {
+    margin: 10px;
+}
+
+.motivos_conteiner h2 {
+    font-size: 27px;
+}
+
+.motivos_dados_conteiner {
+    display: flex;
+    text-align: left;
+}
