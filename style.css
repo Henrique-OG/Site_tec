@@ -432,11 +432,13 @@ footer p {
 }
 
 .cards_tecnologias h2 {
-    font-size: 29px;
+    font-size: 23px;
+    margin: 10px 0;
 }
 
 .cards_tecnologias p {
     line-height: 1.5;
+    margin: 5px 0;
 }
 
 ul {
@@ -522,7 +524,7 @@ li i {
     display: block;
     border-radius: 8px;
     border: solid 1px var(--cor_principal);
-    height: 350px;
+    height: 400px;
     margin: 10px;
     padding: 20px;
 }
