@@ -80,7 +80,7 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 
 ---
 
-## 💡 Próximas Melhorias
+##  Próximas Melhorias
 
 * Adicionar JavaScript
 * Menu Mobile
