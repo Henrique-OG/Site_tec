@@ -104,7 +104,7 @@ header {
 .hero_img {
     width: 50%;
     display: block;
-    margin-left: 10px;
+    margin-right: 20px;
     margin-top: auto;
 }
 
@@ -640,4 +640,104 @@ button:hover {
 .conteudo_txt_contato p, h2 {
     margin: 6px;
     line-height: 1.5;
+}
+
+@media (max-width: 475px) {
+  
+    .menu {
+    gap: 0;
+    margin: 10px 0 0 auto;
+  }
+
+  .menu a {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+
+  .logo img {
+    width: 90px;
+    padding-top: 6px;
+  }
+
+  header .botao {
+    display: none;
+  }
+
+  .botao a {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: auto;
+  }
+
+  .botao a:hover {
+    padding: 4px 9px;
+  }
+
+  .hero_texto {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .hero_img {
+    width: 100%;
+    margin: auto;
+  }
+
+  p, h2 , h2 {
+    margin: 5px ;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .conteiner {
+    padding: 5px;
+  }
+
+  .hero .conteiner {
+    flex-direction: column;
+  }
+
+  .solucoes_texto h2 {
+    font-size: 15px;
+    margin: 4px;
+  }
+
+  .solucoes_texto p {
+    font-size: 12px;
+  }
+
+  .solucoes .conteiner {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .dados_conteiner, .sobre_nos .conteiner {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  .sobre_nos_txt h2 {
+    font-size: 18px;
+  }
 }
