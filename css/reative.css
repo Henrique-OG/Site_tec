@@ -216,7 +216,7 @@
   }
 }
 
-@media (max-width: 945px) {
+@media (min-width:675px) and (max-width: 945px) {
   .botao a {
     padding: 9px 5px;
     font-size: 12px;
