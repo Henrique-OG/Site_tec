@@ -663,6 +663,10 @@ button:hover {
     display: none;
   }
 
+  .botao {
+    margin-top: 20px;
+  }
+
   .botao a {
     padding: 5px 10px;
     font-size: 12px;
@@ -686,7 +690,7 @@ button:hover {
   }
 
   p, h2 , h2 {
-    margin: 5px ;
+    margin: 6px;
     line-height: 1.5;
   }
 
@@ -739,5 +743,40 @@ button:hover {
 
   .sobre_nos_txt h2 {
     font-size: 18px;
+  }
+
+  .timeline {
+    flex-direction: column;
+  }
+
+  .timeline .card {
+    width: 85%;
+  }
+
+  .timeline .card p {
+    font-size: 13px;
+  }
+
+  .timeline .card h2 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .timeline .card h3 {
+    font-size: 13px;
+  }
+
+  .linha_timeline {
+    top: 0px;
+
+    left: 3%;
+
+    width: 2px;
+    height: 100%;
+  }
+
+  .ponto {
+    top: 50%;
+    left: -5%;
   }
 }
