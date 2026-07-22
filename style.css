@@ -807,4 +807,16 @@ button:hover {
     height: 440px;
   }
 
+  .outros_contatos_conteudo {
+    flex-direction: column;
+  }
+
+  .contato {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .contato img {
+    margin: 10px;
+  }
 }
