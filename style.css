@@ -819,4 +819,41 @@ button:hover {
   .contato img {
     margin: 10px;
   }
+
+  .cards_estrategias_conteiner {
+    flex-direction: column;
+  }
+
+  .card_solucoes {
+    width: 85%;
+    margin: 0;
+  }
+
+  .seta i {
+    display: none;
+    height: 0;
+  }
+
+  .cards_tecnologias {
+    width: 70%;
+    height: 400px;
+  }
+
+  .motivos_cards {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .motivos_cards img {
+    width: 40px;
+    margin: 10px auto;
+  }
+
+  .motivos_conteiner .conteiner{
+    flex-direction: column;
+  }
+
+  .textos_motivos {
+    text-align: center;
+  }
 }
