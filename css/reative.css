@@ -215,3 +215,120 @@
     text-align: center;
   }
 }
+
+@media (max-width: 945px) {
+  .botao a {
+    padding: 9px 5px;
+    font-size: 12px;
+  }
+
+  .botao a:hover {
+    padding: 8px 4px;
+  }
+
+  .logo img {
+    padding-top: 3px;
+    width: 120px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .menu a {
+    font-size: 13px;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  h2,h3 {
+    margin: 3px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .card_texto h2, .dados_texto h2 {
+    font-size: 14px;
+  }
+
+  .card_texto p, .dados_texto p{
+    font-size: 12px;
+  }
+
+  .sobre_nos img {
+    width: 50%;
+  }
+
+  .sobre_nos_txt h2 {
+    font-size: 19px;
+  }
+
+  .dados_card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dados_card img {
+    margin: auto;
+  }
+
+  .timeline .card {
+    height: 220px;
+  }
+
+  .card_solucoes h2 {
+    font-size: 16px;
+  }
+
+  .card_solucoes p {
+    font-size: 14px;
+  }
+
+  .cards_tecnologias {
+    width: 15%;
+    margin: 5px;
+  }
+
+ .cards_tecnologias h2 {
+  font-size: 15px;
+ }
+
+ .cards_tecnologias li p{
+  font-size: 13px;
+ }
+
+ .motivos_cards {
+  flex-direction: column;
+ }
+
+ .motivos_cards img {
+  width: 60px;
+  margin: 10px auto;
+ }
+
+ .servicos .conteiner {
+  flex-direction: column;
+ }
+
+ .card_servico {
+  margin: 10px auto;
+  width: 70%;
+ }
+
+ .conteudo_txt_contato p {
+  font-size: 14px;
+ }
+}

@@ -345,6 +345,10 @@ footer p {
     margin-bottom: 20px;
 }
 
+.timeline .card {
+    height: 260px;
+}
+
 .textos {
     margin-top: 20px;
     width: 100%;
