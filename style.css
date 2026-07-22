@@ -779,4 +779,12 @@ button:hover {
     top: 50%;
     left: -5%;
   }
+
+  .dados_texto_sobre p {
+    font-size: 15px;
+  }
+
+  .dados_conteiner {
+    padding: 5px;
+  }
 }
