@@ -787,4 +787,24 @@ button:hover {
   .dados_conteiner {
     padding: 5px;
   }
+
+  .servicos .conteiner {
+    flex-direction: column;
+  }
+
+  .titulo_servico h2{
+    font-size: 20px;
+  }
+
+  .titulo_servico img{
+    width: 50px;
+    margin: auto 10px auto 0;
+  }
+
+  .card_servico {
+    width: 70%;
+    margin: 10px auto;
+    height: 440px;
+  }
+
 }
